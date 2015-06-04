@@ -31,6 +31,9 @@
 		2C1920E01B20AB660070388C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1920DF1B20AB660070388C /* QuartzCore.framework */; };
 		2C1920E31B20AEF70070388C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1920E21B20AEF70070388C /* LoginViewController.m */; };
 		2C1920E61B20AF140070388C /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1920E51B20AF140070388C /* SignupViewController.m */; };
+		2C1920E91B20BDCA0070388C /* EditFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1920E81B20BDCA0070388C /* EditFriendsTableViewController.m */; };
+		2C1920EC1B20CC5B0070388C /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1920EB1B20CC5B0070388C /* FriendsViewController.m */; };
+		2C1920EF1B20E20D0070388C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1920EE1B20E20D0070388C /* CameraViewController.m */; };
 		2C9A2A2A1B16B96500CBAA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A2A291B16B96500CBAA39 /* main.m */; };
 		2C9A2A2D1B16B96500CBAA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A2A2C1B16B96500CBAA39 /* AppDelegate.m */; };
 		2C9A2A331B16B96600CBAA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9A2A311B16B96500CBAA39 /* Main.storyboard */; };
@@ -83,6 +86,12 @@
 		2C1920E21B20AEF70070388C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2C1920E41B20AF140070388C /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		2C1920E51B20AF140070388C /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		2C1920E71B20BDCA0070388C /* EditFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsTableViewController.h; sourceTree = "<group>"; };
+		2C1920E81B20BDCA0070388C /* EditFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsTableViewController.m; sourceTree = "<group>"; };
+		2C1920EA1B20CC5B0070388C /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		2C1920EB1B20CC5B0070388C /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		2C1920ED1B20E20D0070388C /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		2C1920EE1B20E20D0070388C /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		2C9A2A241B16B96500CBAA39 /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9A2A281B16B96500CBAA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9A2A291B16B96500CBAA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -209,6 +218,12 @@
 				2C9A2A2B1B16B96500CBAA39 /* AppDelegate.h */,
 				2C9A2A2C1B16B96500CBAA39 /* AppDelegate.m */,
 				2C9A2A311B16B96500CBAA39 /* Main.storyboard */,
+				2C1920ED1B20E20D0070388C /* CameraViewController.h */,
+				2C1920EE1B20E20D0070388C /* CameraViewController.m */,
+				2C1920E71B20BDCA0070388C /* EditFriendsTableViewController.h */,
+				2C1920E81B20BDCA0070388C /* EditFriendsTableViewController.m */,
+				2C1920EA1B20CC5B0070388C /* FriendsViewController.h */,
+				2C1920EB1B20CC5B0070388C /* FriendsViewController.m */,
 				2C1920E11B20AEF70070388C /* LoginViewController.h */,
 				2C1920E21B20AEF70070388C /* LoginViewController.m */,
 				2C1920E41B20AF140070388C /* SignupViewController.h */,
@@ -356,6 +371,9 @@
 			files = (
 				2C1920E31B20AEF70070388C /* LoginViewController.m in Sources */,
 				2C1920A91B20A60E0070388C /* InboxViewController.m in Sources */,
+				2C1920EC1B20CC5B0070388C /* FriendsViewController.m in Sources */,
+				2C1920EF1B20E20D0070388C /* CameraViewController.m in Sources */,
+				2C1920E91B20BDCA0070388C /* EditFriendsTableViewController.m in Sources */,
 				2C9A2A2D1B16B96500CBAA39 /* AppDelegate.m in Sources */,
 				2C9A2A2A1B16B96500CBAA39 /* main.m in Sources */,
 				2C1920E61B20AF140070388C /* SignupViewController.m in Sources */,
